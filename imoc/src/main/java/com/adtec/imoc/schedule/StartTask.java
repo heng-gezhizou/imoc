@@ -17,4 +17,5 @@ public class StartTask implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
         tokenService.getToken();
     }
+
 }

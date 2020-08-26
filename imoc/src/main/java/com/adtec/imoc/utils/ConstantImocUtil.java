@@ -28,7 +28,6 @@ public class ConstantImocUtil implements InitializingBean {
     public static String HUAWEI_IMOC_USER;
     public static String HUAWEI_IMOC_TENANT;
 
-
     @Override
     public void afterPropertiesSet() throws Exception {
         HUAWEI_IMOC_AKID = akId;
