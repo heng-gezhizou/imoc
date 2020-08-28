@@ -58,7 +58,7 @@ public class UcenterMemberServiceImpl extends ServiceImpl<UcenterMemberMapper, U
 
         //判断该账户是否被禁用
         if(member.getIsDisabled()){
-            throw new GuliException(20001,"改账户已被禁用,请联系管理员进行处理");
+            throw new GuliException(20001,"该账户已被禁用,请联系管理员进行处理");
         }
 
         String jwtToken = JwtUtils.getJwtToken(member.getId(), member.getNickname());

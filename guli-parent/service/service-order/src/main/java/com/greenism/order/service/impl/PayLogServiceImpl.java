@@ -37,7 +37,7 @@ public class PayLogServiceImpl extends ServiceImpl<PayLogMapper, PayLog> impleme
     public Map createNative(String orderNo) {
 
         try{
-            //根据courseId查询
+            //根据orderNo查询
             QueryWrapper<Order> wrapper = new QueryWrapper<>();
             wrapper.eq("order_no",orderNo);
             Order order = orderService.getOne(wrapper);
