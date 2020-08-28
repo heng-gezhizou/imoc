@@ -37,3 +37,4 @@ public class ConstantImocUtil implements InitializingBean {
         HUAWEI_IMOC_TENANT = tenant;
     }
 }
+

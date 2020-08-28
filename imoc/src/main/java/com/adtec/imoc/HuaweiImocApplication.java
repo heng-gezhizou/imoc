@@ -12,3 +12,4 @@ public class HuaweiImocApplication {
         SpringApplication.run(HuaweiImocApplication.class, args);
     }
 }
+
